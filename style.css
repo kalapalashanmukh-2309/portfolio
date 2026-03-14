@@ -1,0 +1,128 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+
+/* Header */
+
+header{
+background:#222;
+color:white;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#000000;
+}
+
+
+/* Welcome Section */
+
+#welcome-section{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(to right,#000000,#393e46);
+color:white;
+text-align:center;
+padding:20px;
+}
+
+#welcome-section h2{
+font-size:40px;
+margin-top:10px;
+}
+
+
+/* Profile Picture */
+
+.profile-pic{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid white;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+margin-bottom:20px;
+}
+
+
+/* About Section */
+
+#about{
+padding:60px;
+text-align:center;
+background:white;
+}
+
+#about h2{
+margin-bottom:20px;
+}
+
+
+/* Projects Section */
+
+#projects{
+padding:60px;
+text-align:center;
+}
+
+.project-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.project-tile{
+background:white;
+padding:20px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.project-tile:hover{
+transform:translateY(-5px);
+}
+
+
+/* Contact Section */
+
+#contact{
+padding:60px;
+text-align:center;
+background:#eeeeee;
+}
+
+
+/* Footer */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
